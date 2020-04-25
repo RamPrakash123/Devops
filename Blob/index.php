@@ -20,10 +20,10 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 $name = $_POST['login'];
 $pass = $_POST['password'];
 
-$hostname='edureka.cx9qgfyl1dhy.us-west-2.rds.amazonaws.com';
-$username='edureka';
-$password='edureka123';
-$dbname='edureka';
+$hostname='awsdevops.cqah8yzhskzu.us-west-2.rds.amazonaws.com';
+$username='admin';
+$password='12345678';
+$dbname='awsdevops';
 $usertable='login';
 
 try
